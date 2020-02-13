@@ -16,7 +16,7 @@ public class TimeSheet_v3 {
         // Abre navegador Chrome:
         WebDriver pagina = new ChromeDriver();
         // Informa endereço que deve ser carregado:
-        pagina.get("https://ps2010.dbserver.com.br/pwa/timesheet.aspx");
+        pagina.get("https://endereço_da_timesheet.com.br/pwa/timesheet.aspx");
         // Efetua a autenticação de proxy para endereços externos:
         Runtime.getRuntime().exec("C:\\Temp\\ProxyAuthentication\\TimeSheetAuthentication.exe");
         // Maximiza janela do navegador:
